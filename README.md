@@ -36,6 +36,10 @@ wai/
     └── skills/             # Summarize, annotate, and recommend skills
 ```
 
+## Requirements
+
+WAI requires **Claude Code** — the CLI, desktop app, or IDE extension. It will not work fully in Claude.ai chat. The Summarize and Annotate skills write directly to files on your machine, which chat mode does not support. You'd get the conversation, but nothing would be saved.
+
 ## Getting Started
 
 1. Open this folder in Claude Code.
